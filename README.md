@@ -13,7 +13,14 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 2. **Number is Even or Odd**  
    - A program that checks whether a given number is even or odd.  
-   - **Purpose:** Practice conditional statements (`if-else`) and modulus operator (`%`).  
+   - **Purpose:** Practice conditional statements (`if-else`) and modulus operator (`%`).
+
+
+3. **Factorial of a Number**  
+   - A program that computes the factorial of a given number.    
+   - **Purpose:** Practice loops/recursion and mathematical logic.  
+   - **Example Input:** `5`  
+   - **Example Output:** `120` 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -26,8 +33,9 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 2. Run a program:
 ```bash
-python hello_world.py
-python even_or_odd.py
+python 01_hello_world.py
+python 02_even_or_odd.py
+python 03_factorial of number.py
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
