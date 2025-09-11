@@ -15,12 +15,15 @@ The goal is to start from very basic concepts and gradually move towards more ch
    - A program that checks whether a given number is even or odd.  
    - **Purpose:** Practice conditional statements (`if-else`) and modulus operator (`%`).
 
-
 3. **Factorial of a Number**  
    - A program that computes the factorial of a given number.    
    - **Purpose:** Practice loops/recursion and mathematical logic.  
    - **Example Input:** `5`  
-   - **Example Output:** `120` 
+   - **Example Output:** `120`
+
+4. **Swap Two Numbers**  
+   - A program that swaps the values of two numbers using a temporary variable.  
+   - **Purpose:** Practice variables and value swapping.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,6 +39,7 @@ The goal is to start from very basic concepts and gradually move towards more ch
 python 01_hello_world.py
 python 02_even_or_odd.py
 python 03_factorial of number.py
+python 04_swap two numbers.py
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
