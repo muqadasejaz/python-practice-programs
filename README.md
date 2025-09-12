@@ -23,7 +23,15 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 4. **Swap Two Numbers**  
    - A program that swaps the values of two numbers using a temporary variable.  
-   - **Purpose:** Practice variables and value swapping.  
+   - **Purpose:** Practice variables and value swapping.
+
+5. **Convert Integer into Decimal**  
+   - A program that converts an integer input into a decimal value using the `decimal` module.  
+   - **Purpose:** Practice type conversion and formatting output.
+  
+6. **Table of a number**  
+   - A program that prints the multiplication table of a number entered by the user.  
+   - **Purpose:** Practice `for` loops and basic arithmetic. 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -40,6 +48,8 @@ python 01_hello_world.py
 python 02_even_or_odd.py
 python 03_factorial of number.py
 python 04_swap two numbers.py
+python 05_convert_integer_into_decimal.py
+python 06_table_of_a_number.py
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
