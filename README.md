@@ -31,7 +31,15 @@ The goal is to start from very basic concepts and gradually move towards more ch
   
 6. **Table of a number**  
    - A program that prints the multiplication table of a number entered by the user.  
-   - **Purpose:** Practice `for` loops and basic arithmetic. 
+   - **Purpose:** Practice `for` loops and basic arithmetic.
+
+7. **Area of a Circle**  
+   - A program that calculates the area of a circle using the formula **π × r²**.  
+   - **Purpose:** Practice mathematical formulas and formatted output.
+
+8. **Perimeter of a Rectangle**  
+   - A program that calculates the perimeter of a rectangle using the formula **2 × (length + width)**.  
+   - **Purpose:** Practice mathematical formulas and user input handling.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -50,6 +58,8 @@ python 03_factorial of number.py
 python 04_swap two numbers.py
 python 05_convert_integer_into_decimal.py
 python 06_table_of_a_number.py
+python 07_area_of_circle.py
+python 08_perimeter_of_rectangle.py
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -70,7 +80,7 @@ python 06_table_of_a_number.py
 - File handling and exception handling examples  
 - Small projects combining multiple concepts
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 👤 Author
 
