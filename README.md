@@ -39,7 +39,16 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 8. **Perimeter of a Rectangle**  
    - A program that calculates the perimeter of a rectangle using the formula **2 × (length + width)**.  
-   - **Purpose:** Practice mathematical formulas and user input handling.  
+   - **Purpose:** Practice mathematical formulas and user input handling.
+
+9. **Check Positive, Negative or Zero**  
+   - A program that checks whether a given number is positive, negative, or zero.  
+   - **Purpose:** Practice conditional statements (`if-elif-else`).
+
+10. **Maximum Between Three Numbers**  
+    - A program that finds the maximum among three numbers using conditional statements.  
+    - **Purpose:** Practice nested conditions and comparison operators.
+
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -60,6 +69,8 @@ python 05_convert_integer_into_decimal.py
 python 06_table_of_a_number.py
 python 07_area_of_circle.py
 python 08_perimeter_of_rectangle.py
+python 09_nature_of_a_number.py
+python 10_maximum_number.py
 ```
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
