@@ -48,7 +48,14 @@ The goal is to start from very basic concepts and gradually move towards more ch
 10. **Maximum Between Three Numbers**  
     - A program that finds the maximum among three numbers using conditional statements.  
     - **Purpose:** Practice nested conditions and comparison operators.
-
+   
+11. **Middle Number Among Three Numbers**  
+    - A program that finds the middle number in a group of three numbers.  
+    - **Purpose:** Practice logical operators (`and`, `or`) and conditional statements.
+   
+12. **Sum of Numbers from 1 to n**  
+    - A program that calculates the sum of all numbers from 1 to `n` using a `while` loop.  
+    - **Purpose:** Practice loops, counters, and accumulation logic.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -71,9 +78,11 @@ python 07_area_of_circle.py
 python 08_perimeter_of_rectangle.py
 python 09_nature_of_a_number.py
 python 10_maximum_number.py
+python 11_find_middle_number_among_three_numbers.py
+python 12_sum_of_numbers_from_1_to_n.py
 ```
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 🎯 Goals
 
