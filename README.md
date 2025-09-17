@@ -55,7 +55,31 @@ The goal is to start from very basic concepts and gradually move towards more ch
    
 12. **Sum of Numbers from 1 to n**  
     - A program that calculates the sum of all numbers from 1 to `n` using a `while` loop.  
-    - **Purpose:** Practice loops, counters, and accumulation logic.  
+    - **Purpose:** Practice loops, counters, and accumulation logic.
+   
+13. **Print Even Numbers Between 1 to n using While Loop**
+
+  📖 Description
+  This program takes an integer `n` as input and prints all the even numbers between `1` and `n` using a `while` loop.  
+  If the given number is less than 2, the program informs that no even numbers exist in the range.
+
+14. **Check if a String is Palindrome or Not**
+
+📖 Description
+This program checks whether a given string is a **palindrome** or not.  
+A palindrome is a word, phrase, number, or sequence of characters that reads the same **forward and backward**, ignoring case and spaces.  
+
+Examples of palindromes:  
+- `madam`  
+- `racecar`  
+- `Never odd or even`  
+
+📝 Logic
+1. Convert the input string to lowercase.  
+2. Remove spaces to handle multi-word strings.  
+3. Reverse the string using slicing (`s[::-1]`).  
+4. Compare the original string with its reversed version.  
+5. If they match → It's a palindrome, otherwise not.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -80,6 +104,8 @@ python 09_nature_of_a_number.py
 python 10_maximum_number.py
 python 11_find_middle_number_among_three_numbers.py
 python 12_sum_of_numbers_from_1_to_n.py
+python 13_even_num_between_1_to_n.py
+python 14_string_palindrome_or_not.py
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
