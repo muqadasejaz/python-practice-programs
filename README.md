@@ -65,7 +65,7 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 14. **Check if a String is Palindrome or Not**
 
-📖 Description
+## 📖 Description
 This program checks whether a given string is a **palindrome** or not.  
 A palindrome is a word, phrase, number, or sequence of characters that reads the same **forward and backward**, ignoring case and spaces.  
 
@@ -74,12 +74,37 @@ Examples of palindromes:
 - `racecar`  
 - `Never odd or even`  
 
+## 📝 Logic
+-  Convert the input string to lowercase.  
+-  Remove spaces to handle multi-word strings.  
+-  Reverse the string using slicing (`s[::-1]`).  
+-  Compare the original string with its reversed version.  
+-  If they match → It's a palindrome, otherwise not.  
+
+
+15. **Check Voting Eligibility**
+
+ 📖 Description
+This program checks whether a person is **eligible to vote** based on their age.  
+According to general rules, a person must be **18 years or older** to vote.
+
+ 📝 Logic
+- Take the user's age as input.  
+- If age is greater than or equal to 18 → Eligible to vote.  
+- Otherwise → Not eligible to vote.  
+
+
+16. **Check Whether a Character is a Vowel or Not**
+
+ 📖 Description
+This program checks whether a given character is a **vowel** or not.  
+Vowels are: `a, e, i, o, u` (both uppercase and lowercase).
+
 📝 Logic
-1. Convert the input string to lowercase.  
-2. Remove spaces to handle multi-word strings.  
-3. Reverse the string using slicing (`s[::-1]`).  
-4. Compare the original string with its reversed version.  
-5. If they match → It's a palindrome, otherwise not.
+- Take a character as input.  
+- Check if it belongs to the set of vowels (`a, e, i, o, u, A, E, I, O, U`).  
+- If yes → Print that it is a vowel.  
+- Otherwise → Print that it is not a vowel.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -106,6 +131,8 @@ python 11_find_middle_number_among_three_numbers.py
 python 12_sum_of_numbers_from_1_to_n.py
 python 13_even_num_between_1_to_n.py
 python 14_string_palindrome_or_not.py
+python 15_check_voting_eligibility.py
+python 16_vowel_or_not.py
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
