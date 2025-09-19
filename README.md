@@ -65,7 +65,7 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 14. **Check if a String is Palindrome or Not**
 
-## 📖 Description
+ 📖 Description
 This program checks whether a given string is a **palindrome** or not.  
 A palindrome is a word, phrase, number, or sequence of characters that reads the same **forward and backward**, ignoring case and spaces.  
 
@@ -74,7 +74,7 @@ Examples of palindromes:
 - `racecar`  
 - `Never odd or even`  
 
-## 📝 Logic
+ 📝 Logic
 -  Convert the input string to lowercase.  
 -  Remove spaces to handle multi-word strings.  
 -  Reverse the string using slicing (`s[::-1]`).  
@@ -104,7 +104,34 @@ Vowels are: `a, e, i, o, u` (both uppercase and lowercase).
 - Take a character as input.  
 - Check if it belongs to the set of vowels (`a, e, i, o, u, A, E, I, O, U`).  
 - If yes → Print that it is a vowel.  
-- Otherwise → Print that it is not a vowel.  
+- Otherwise → Print that it is not a vowel.
+
+17. **Calculate Body Mass Index (BMI)**
+
+📖 Description
+This program calculates the **Body Mass Index (BMI)** based on the user's **weight** (in kilograms) and **height** (in meters).  
+The BMI is a measure that helps classify whether a person is underweight, normal weight, overweight, or obese.
+
+📝 Logic
+- Take weight (kg) and height (m) as input from the user.  
+- Use the formula `BMI = weight / (height ** 2)`.  
+- Round the result to 2 decimal places.  
+- Handle invalid (non-numeric) input using `try-except`.
+
+18. **Check if a Number is Divisible by Another Number**
+
+📖 Description
+This program checks whether a given number (**dividend**) is divisible by another number (**divisor**).  
+It ensures that the divisor properly divides the dividend without leaving a remainder.
+
+📝 Logic
+- Take two numbers as input:  
+   - First number → Dividend  
+   - Second number → Divisor  
+- Use the modulus operator (`%`) to check divisibility.
+- If `num1 % num2 == 0` → The number is divisible.  
+- Otherwise → It is not divisible.  
+- Handle invalid inputs with `try-except`.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -133,6 +160,8 @@ python 13_even_num_between_1_to_n.py
 python 14_string_palindrome_or_not.py
 python 15_check_voting_eligibility.py
 python 16_vowel_or_not.py
+python 17_Calculate_BMI.py
+python 18_divisibility.py
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
