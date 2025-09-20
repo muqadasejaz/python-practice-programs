@@ -65,7 +65,7 @@ The goal is to start from very basic concepts and gradually move towards more ch
 
 14. **Check if a String is Palindrome or Not**
 
- 📖 Description
+ 📖 Description:
 This program checks whether a given string is a **palindrome** or not.  
 A palindrome is a word, phrase, number, or sequence of characters that reads the same **forward and backward**, ignoring case and spaces.  
 
@@ -84,7 +84,7 @@ Examples of palindromes:
 
 15. **Check Voting Eligibility**
 
- 📖 Description
+ 📖 Description:
 This program checks whether a person is **eligible to vote** based on their age.  
 According to general rules, a person must be **18 years or older** to vote.
 
@@ -96,7 +96,7 @@ According to general rules, a person must be **18 years or older** to vote.
 
 16. **Check Whether a Character is a Vowel or Not**
 
- 📖 Description
+ 📖 Description:
 This program checks whether a given character is a **vowel** or not.  
 Vowels are: `a, e, i, o, u` (both uppercase and lowercase).
 
@@ -108,7 +108,7 @@ Vowels are: `a, e, i, o, u` (both uppercase and lowercase).
 
 17. **Calculate Body Mass Index (BMI)**
 
-📖 Description
+📖 Description:
 This program calculates the **Body Mass Index (BMI)** based on the user's **weight** (in kilograms) and **height** (in meters).  
 The BMI is a measure that helps classify whether a person is underweight, normal weight, overweight, or obese.
 
@@ -120,7 +120,7 @@ The BMI is a measure that helps classify whether a person is underweight, normal
 
 18. **Check if a Number is Divisible by Another Number**
 
-📖 Description
+📖 Description:
 This program checks whether a given number (**dividend**) is divisible by another number (**divisor**).  
 It ensures that the divisor properly divides the dividend without leaving a remainder.
 
@@ -131,7 +131,28 @@ It ensures that the divisor properly divides the dividend without leaving a rema
 - Use the modulus operator (`%`) to check divisibility.
 - If `num1 % num2 == 0` → The number is divisible.  
 - Otherwise → It is not divisible.  
-- Handle invalid inputs with `try-except`.  
+- Handle invalid inputs with `try-except`.
+
+19. **Calculate the Area of a Triangle**
+
+📝 Logic
+- Take the base and height of the triangle as input.  
+- Apply the formula `area = 0.5 * base * height`.  
+- Display the result.  
+- Handle invalid (non-numeric) inputs with `try-except`.
+
+20. **Reverse a Name Entered by the User**
+
+📖 Description:
+This program takes a **name** as input and prints it in **reverse order**.  
+It also validates that the input contains only alphabetic characters.
+
+📝 Logic
+- Take the user's name as input.  
+- Validate that the input contains only alphabets (`isalpha()`).  
+- Reverse the string using slicing (`[::-1]`).  
+- Print the reversed name.  
+- Handle invalid inputs using `try-except`.  
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -162,6 +183,8 @@ python 15_check_voting_eligibility.py
 python 16_vowel_or_not.py
 python 17_Calculate_BMI.py
 python 18_divisibility.py
+python 19_area_of_triangle.py
+python 20_reverse_name.py
 ```
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
